@@ -1,4 +1,5 @@
 .app{
+    position: relative;
     font-family: SVN-Gilroy,Verdana,Roboto,Tahoma,sans-serif; 
 }
 .header{
@@ -10,23 +11,25 @@
 .date__today{
     position: relative;
     text-align: center;
-    padding: 12px 120px;
+    padding: 12px 240px;
 }
 .app h1{
     color:#ffca38;
 }
 .date__list{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    text-align: center;
     margin: 24px 0;
+    width: 100%;
 }
 .date__item{
     position: relative;
     width: 200px;
     height: 200px;
-    margin-left: 8px;
+    margin-right: 12px;
     border-radius: 20px;
-    background-color: #ffdd7e;
+    background-color: #fae6b0;
 
 }
 .date__firt{
@@ -38,6 +41,7 @@
     justify-content: center;
     font-size: 32px;
     color: red;
+    font-weight: 600;
 
 }
 .date__title{
@@ -66,7 +70,7 @@
 }
 .date__second{
     position: absolute;
-    bottom: 50px;
+    top: 0px;
     right: 250px;
     margin-top: 24px;
     text-align: center;
@@ -88,4 +92,7 @@
     right: 4px;
     top: 36px;
 
+}
+#hours{
+    font-size: 28px;
 }
